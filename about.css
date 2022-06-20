@@ -1,0 +1,54 @@
+#hero {
+    font-family:'Courier New', Courier, monospace;
+    background-image: url(banjoalpine.jpg);
+    height: 600px;
+    background-size: cover;
+    color: black;
+    
+}
+#hero h1{
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 50px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(196, 192, 192, 0.104);
+
+}
+
+a:visited { 
+    text-decoration: none;
+    color: rgb(0, 0, 0); 
+   }
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+ul li {
+    margin: 0 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.content{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 600px;
+    font-weight: 800px;
+    text-transform: uppercase;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.aboutme {
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 1px;
+    background-color: rgb(59, 93, 74);
+    color: white;
+  }

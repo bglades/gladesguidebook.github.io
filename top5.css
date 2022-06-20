@@ -1,0 +1,95 @@
+#hero {
+    font-family:'Courier New', Courier, monospace;
+    background-image: url(St.Mary.jpg);
+    height: 600px;
+    background-size: cover;
+    color: black;
+    
+}
+#hero h1{
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 50px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(196, 192, 192, 0.104);
+
+}
+
+a:visited { 
+    text-decoration: none;
+    color: rgb(0, 0, 0); 
+   }
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+ul li {
+    margin: 0 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.content{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 600px;
+    font-weight: 800px;
+    text-transform: uppercase;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.content button {
+    font-size: 1rem;
+    color: black;
+    background-color: transparent;
+    border: 2px solid black;
+    padding: .5rem .5rem;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.content button:hover {
+    background-color: rgb(202, 201, 201);
+}
+
+.cupid {
+    padding: 70px 0;
+    text-align: center;
+}
+.sniktau {
+    padding: 70px 0;
+    text-align: center;
+}
+.square {
+    padding: 70px 0;
+    text-align: center;
+}
+.isabelle {
+    padding: 70px 0;
+    text-align: center;
+}
+.mary {
+    padding: 70px 0;
+    text-align: center;
+}
+.links {
+    padding: 50px 0;
+    text-align: center;
+    width: 50%;
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 3px;
+}
+footer {
+    text-align: center;
+    padding: 1px;
+    background-color: rgb(59, 93, 74);
+    color: white;
+  }
+
